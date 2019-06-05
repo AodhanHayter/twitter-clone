@@ -51,6 +51,7 @@ main {
   outline: none;
 }
 
+
 .compose .actions {
   display: flex;
   justify-content: space-between;
@@ -58,6 +59,10 @@ main {
   flex-direction: row;
   color: #13B5F0;
   padding: 8px 0;
+}
+
+.compose .hide {
+  display: none;
 }
 
 .compose .input-button {
